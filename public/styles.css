@@ -499,7 +499,17 @@ table.compare tr:last-child td {
     padding: 26px 22px;
   }
 
+  /* Brand and Download share row one; the links wrap to their own row below */
+  .site-header .wrap {
+    gap: 10px 16px;
+    min-height: 0;
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+
   .site-header nav {
+    order: 3;
+    width: 100%;
     gap: 16px;
   }
 }
